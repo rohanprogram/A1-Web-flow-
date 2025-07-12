@@ -195,3 +195,61 @@ action-section{
     margin-bottom: 50px;
     padding: 0px 20px;
 }
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 200px;
+}
+.contact-left{
+    flex: 1;
+    min-width: 280px;
+    
+}
+.contact-left h2{
+    font-size: 80px;
+    margin: 0px;
+}
+.contact-from{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    font-size: 0.9em;
+    color: #00000093;
+    margin-bottom: 5px;
+}
+.form-group input{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.form-group textarea{
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.submit-btn{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 19px 110px;
+    gap: 1opx;
+    border-radius: 10px;
+}
+.submit-btn:hover{
+    background-color: #0056b3;
+}
