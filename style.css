@@ -111,3 +111,56 @@ action-section{
     font-size: 18px;
     color: #00000039;
 }
+
+
+.section-titel{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+    text-align: center;
+}
+.tast-grid{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tast-card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    align-items: start;
+}
+.users-grid:hover{
+    box-shadow: #252432;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+.review-text{
+    margin: 0px;
+    font-size: 15px;
+    text-align: left;
+}
+.review-info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.review-name{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000a4;
+}
+.reviwer-date{
+    text-align: start;
+    font-size: 14px;
+    color: #00000068;
+}
